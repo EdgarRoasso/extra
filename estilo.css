@@ -1,0 +1,35 @@
+
+/* llamo (h1) y le doy el color */
+h1 {
+    color: chartreuse;
+}
+/* llamo (p) y le doy color */
+p{
+    color: coral;
+}
+
+.segundodiv{
+    color: darkblue    ;
+}
+
+.padre{
+    background-color: darkorange;
+    /*(height)largo */
+    height: 200px;
+    /*(width)ancho */
+    width: 200px;
+    /*(top)superior(left)izquierda(right)derecha */
+    /*(padding) es como un margen tambien */
+    /* padding:  20px; */
+    position: absolute;
+    left: 200px;
+}
+.hijo{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    /*(margin)margen */
+    margin: 10px 10px;
+
+}
+

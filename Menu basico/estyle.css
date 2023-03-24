@@ -1,0 +1,40 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*(border) hace el borde */
+    border: solid 3px chartreuse ;
+    /*(box-shadow) hace sombra */
+    box-shadow: 2px 20px 20px rgb(221, 179, 12);
+}
+
+a{
+    /*le saco la decoracion  */
+    text-decoration: none;
+    /*le doy color a todas las (a)*/
+  color: white;
+}
+/*le doy color a todos los (header)*/
+header{
+
+    /*organisa de iquierda a derech*/
+    display: flex;
+  background-color    : black;
+   /*(min-height)altura minima */
+   min-height: 70px;
+   /*separa elementos por bloques */
+   justify-content: space-between;
+   /* */
+}
+
+nav a{
+   /*le doy relleno a las letras */
+    font-weight: 600;
+    /*le doy separacion a inicio codigo contacto*/
+    padding-right: 90px;
+   
+}
+ /*(hover) cambia el color de la palabra cundo paso ensima*/
+nav a:hover {
+  color:blue;
+}
+
